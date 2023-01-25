@@ -1,0 +1,3739 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    }, {
+      "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/OpeningHoursSpecification"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/available"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/hasEmail"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/hasTelephone"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/hasWebSite"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/hasSite"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/Site"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/Catalogue"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/catalogue"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/AccessCondition"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/hasAccessCondition"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/ContactPoint"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/hasContactPoint"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/Service"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/providesService"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/institutionalName"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#cardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/ISILIdentifier"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/toponym"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/hasLat"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/hasLong"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/DayOfWeek"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/hasDayOfWeek"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#time"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/closes"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#time"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/opens"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/ContactPoint"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/hasContactPoint"
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/CulturalInstituteOrSite"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/isProvidedBy"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/hasAddress"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/Address"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/hasGeographicalLocation"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/GeographicalFeature"
+  } ]
+}, {
+  "@id" : "_:genid32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/isSiteOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/CulturalInstituteOrSite"
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/ContactPoint"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/hasContactPoint"
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/Geometry"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/hasGeometry"
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid36",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/hasReason"
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/endDate"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "_:genid38",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/startDate"
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://w3.id.org/def/BibliOWL#Cinema"
+    }, {
+      "@id" : "http://w3.id.org/def/BibliOWL#Literature"
+    }, {
+      "@id" : "http://w3.id.org/def/BibliOWL#Music"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/fullAddress"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://w3.id.org/def/BibliOWL#Municipality"
+    }, {
+      "@id" : "http://w3.id.org/def/BibliOWL#Province"
+    }, {
+      "@id" : "http://w3.id.org/def/BibliOWL#Region"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/postCode"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#cardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/addressID"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/CulturalInstituteOrSite"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/isCatalogueOf"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/hasWebSite"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/AccessCondition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/img/access.png"
+  }, {
+    "@language" : "it",
+    "@value" : "Questa classe è utilizzata per rappresentare le condizioni di accesso associate a un \"Istituto e luogo della Culrura\" o a un \"Evento\": Le condizione di accesso sono individui delle seguenti classi:\n * Orari di apertura\n * Chiusara Temporanea\n * Tipo di Prenotazione\n\nUn esempio dell'uso della classe in turle è il seguente:\n<pre>\ncis a CulturalInstituteOrSite ;\n  description \"An entity representing an individual of the class 'Institute or Site.'\" ;\n  hasAccessCondition cis_access_condition . \n\ncis_access_condition a Access ;\n  description \"The individual of the class 'Access' that specifies the access\n  condition associated with the CulturalInstituteOrSite called cis\" .\n</pre>"
+  }, {
+    "@language" : "en",
+    "@value" : "This class is used for representing the access conditions associated with a 'Cultural Institute or Site' or an 'Event'.\nAccess conditions are meant to be indivuduals of the following classes:\n  * Opening Hours Specification\n  * Temporary Closure\n  * Type of Booking\n\nAn example in turtle is the following:\n\n<pre>\ncis a CulturalInstituteOrSite ;\n  description \"An entity representing an individual of the class 'Institute or Site.'\" ;\n  hasAccessCondition cis_access_condition . \n\ncis_access_condition a Access ;\n  description \"The individual of the class 'Access' that specifies the access\n  condition associated with the CulturalInstituteOrSite called cis\" .\n</pre>"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Concept used to represent general information for the public access to the Cultural Institute or Site or to the Event. For instance, examples of information include: opening hours, type of admission, temporary closing, etc."
+  }, {
+    "@language" : "it",
+    "@value" : "Concetto che rappresenta le informazioni generali per l'accesso da parte del pubblico all'Istituto e Luogo della Cultura e all'evento. Per esempio consente di modellare informazioni quali gi orari di apertura, le chiusure temporanee (con le relative motivazioni), il tipo di apertura al pubblico, ecc."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Access condition"
+  }, {
+    "@language" : "it",
+    "@value" : "Condizioni di accesso"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/Address",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/img/address.png"
+  }, {
+    "@language" : "en",
+    "@value" : "Individuals of the class Site are associated with individual of the class Address by means of the object property hasAddress.\nAn address is characterised by the following properties:\n\n * addressIdentifier: a unique ID of the address;\n * administrativeUnitLevel1: e.g., Rome;\n * administrativeUnitLevel2: e.g., Lazio;\n * fullAddress: the literal that records the full address as a string;\n * postCode: the postal code corresponding to the address;\n * postName: the key postal name, usually the city ;\n\n\nAn example in turtle is the following:\n\n<pre>\n\nsite:Sede_di_Biblioteca_nazionale_centrale_di_Roma\n      a       cis:Site ;\n      rdfs:label \"Sede di: Biblioteca nazionale centrale di Roma\"@it ;\n      cis:hasAddress address:Indirizzo_della_sede_di_Biblioteca_nazionale_centrale_di_Roma ;\n\n\naddress:Indirizzo_della_sede_di_Biblioteca_nazionale_centrale_di_Roma\n      a       cis:Address ;\n      rdfs:label \"Indirizzo della sede di: Biblioteca nazionale centrale di Roma\"@it ;\n      cis:addressID \"IT-RM0267_IT_1\" ;\n      cis:adminUnitL1 \"Roma\"@it ;\n      cis:adminUnitL2 \"Lazio\"@it ;\n      cis:fullAddress \"Viale Castro Pretorio 105 - 00185 - Roma (RM\" ;\n      cis:postName \"Rome\" ;\n      cis:postCode \"00185\" .\n\n</pre>"
+  }, {
+    "@language" : "it",
+    "@value" : "Individui della classe Address sono connessi ad invididui della classe Site attraverso la proprietà che collega Site ad Address hasAddress. \nUn indirizzo è caratterizzato dalle seguenti proprietà:\n\n * Identificativo dell'indirizzo: un ID univoco dell'indirizzo;\n * livello amministrativo 1: di solito il comune, e.g., Roma;\n * livello amministrativo 2: di solito la regione, e.g., Lazio;\n * indirizzo completo: un literal che rappresenta l'indirizzo completo come una stringa\n * codice postale: il codice postale corrispondere all'indirizzo.\n * nome postale: il nome chiave postale di solito la città\n\nUn esempio in turtle è il seguente:\nsite:Sede_di_Biblioteca_nazionale_centrale_di_Roma\n      a       cis:Site ;\n      rdfs:label \"Sede di: Biblioteca nazionale centrale di Roma\"@it ;\n      cis:hasAddress address:Indirizzo_della_sede_di_Biblioteca_nazionale_centrale_di_Roma ;\n\n\naddress:Indirizzo_della_sede_di_Biblioteca_nazionale_centrale_di_Roma\n      a       cis:Address ;\n      rdfs:label \"Indirizzo della sede di: Biblioteca nazionale centrale di Roma\"@it ;\n      cis:addressID \"IT-RM0267_IT_1\" ;\n      cis:adminUnitL1 \"Roma\"@it ;\n      cis:adminUnitL2 \"Lazio\"@it ;\n      cis:fullAddress \"Viale Castro Pretorio 105 - 00185 - Roma (RM\") ;\n      cis:postName \"Roma\" ;\n      cis:postCode \"00185\" .\n\n</pre>"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It represents an address as defined by the specifications of the EU INSPIRE directive https://inspire-twg.jrc.ec.europa.eu/inspire-fc.html#_C2538"
+  }, {
+    "@language" : "it",
+    "@value" : "Rappresenta un indirizzo così come descritto nelle specifiche della direttiva Europea INSPIRE https://inspire-twg.jrc.ec.europa.eu/inspire-fc.html#_C2538."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Address"
+  }, {
+    "@language" : "it",
+    "@value" : "Indirizzo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid4"
+  }, {
+    "@id" : "_:genid5"
+  }, {
+    "@id" : "_:genid6"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/Catalogue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/img/catalogue.png"
+  }, {
+    "@language" : "en",
+    "@value" : "A catalogue is always associated with an individual of the class 'CulturalInstituteOrSite' (CIS) by means of the object property hasCatalogue (with domain CulturalInstituteOrSite and range Catalogue).\n\nThe inverse property of hasCatalogue is isCatalogueOf and relates a catalogue to a CIS.\n\nAn example in turtle is the following:\n\n<pre>\ncatalogue:Catalogo_Generale_(autore)\n      a       cis:Catalogue ;\n      rdfs:label \"Catalogo Generale (autore)\" ;\n      cis:name \"Catalogo Generale (autore)\" ;\n      cis:isCatalogueOf cissite:Biblioteca_nazionale_centrale ;\n      cis:description \"Catalogo Generale per autore - online\"@it .\n\ncissite:Biblioteca_nazionale_centrale\n      a       cis:Library , cis:CulturalInstituteOrSite ;\n      cis:hasCatalogue catalogue:Catalogo_Generale_(autore) .\n</pre>"
+  }, {
+    "@language" : "it",
+    "@value" : "Un catalogo è sempre associato a un individuo della classe \"Istitute e luogo della cultura\" attraverso la proprietà ha catalogo (che ha dominio CulturaInstituteOrSite e codominio Catalogue).\n\nLa proprietà inversa di ha catalogo è \"è catalogo di\" e collega il catalogo all'istituto e luogo della cultura.\n\nUn esempio in turtle è il seguente:\n\n<pre>\n\ncatalogue:Catalogo_Generale_(autore)\n      a       cis:Catalogue ;\n      rdfs:label \"Catalogo Generale (autore)\" ;\n      cis:name \"Catalogo Generale (autore)\" ;\n      cis:isCatalogueOf cissite:Biblioteca_nazionale_centrale ;\n      cis:description \"Catalogo Generale per autore - online\"@it .\n\ncissite:Biblioteca_nazionale_centrale\n      a       cis:Library , cis:CulturalInstituteOrSite ;\n      cis:hasCatalogue catalogue:Catalogo_Generale_(autore) .\n\n</pre>"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Concept used to represent the catalogue which describes the set of cultural heritage objects included in a Cultural Institute or Site"
+  }, {
+    "@language" : "it",
+    "@value" : "Concetto utilizzato per rappresentare il catalogo che descrive l'insieme delle opere contenute in un istituto e luogo della cultura."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Catalogo"
+  }, {
+    "@language" : "en",
+    "@value" : "Catalogue"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid7"
+  }, {
+    "@id" : "_:genid8"
+  }, {
+    "@id" : "_:genid9"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/ContactPoint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "it",
+    "@value" : "Gli individui delle classi Istituto e Luogo della Cultura, Evento e Sede possono avere dei punti di contatto, i.e., un numero di telefono, un indirizzo email, un fax, ecc. che sono utilizzati come riferimenti.\n\nInoltre, un pubto di contatto potrebbe essere dichiarato come operativo in alcune fasce orarie.\n\nQueste informazioni sono modellate attraverso l'uso della proprietà ha punto di contatto il cui dominio può essere un Istituto e Luogo della Cultura, un Evento o una Sede e il suo range qualsiasi individuo della classe Punto di Contatto.\n\nPer esempio, il fatto che la Biblioteca Nazionale Centrale di Roma ha un numero di telefono di riferimento, un numero di fax, un email come pure una PEC può essere descritto nel seguente modo in turtle:\n\n\n<pre>\n\ncontactPoint:Contatti_di_Biblioteca_nazionale_centrale_di_Roma\n      a       cis:ContactPoint ;\n      rdfs:label \"Contatti di: Biblioteca nazionale centrale di Roma\"@it ;\n      cis:available   openingHoursSpecification:Orari_di_apertura_di_Biblioteca_nazionale_centrale_di_Roma_giovedi ;\n      cis:hasCertifiedEmail\n              mailto:mbac-bnc-rm@mailcert.beniculturali.it ;\n      cis:hasEmail mailto:bnc-rm@beniculturali.it ;\n      cis:hasFax \"+39064457635  \" ;\n      cis:hasTelephone \"+390649891\" .\n\ncissite:Biblioteca_nazionale_centrale\n      a       cis:Library , cis:CulturalInstituteOrSite ;\n      cis:hasContactPoint contactPoint:Contatti_di_Biblioteca_nazionale_centrale_di_Roma .\n\n</pre>"
+  }, {
+    "@language" : "en",
+    "@value" : "Individuals of the classes CulturalInstituteOrSite, Event and Site may have a \"contact point\", i.e., a phone number, email address, fax, etc. that is used a reference contact.\n\nAdditionally, a cantact point might be also declared to be operative with respect to specific hopening hours.\n\nThis information is modelled into a knowledge base by using the object property hasContactPoint whose domain can be a CulturalInstituteOrSite, an Event or a Site, and its range is any indifvidual of the class ContactPoint.\n\nFor example, the fact that the Biblioteca Nazionale Centrale of Rome has  reference phone and fax number and a email as well as certified email contacts can be described in the following way by using turtle:\n\n<pre>\n\ncontactPoint:Contatti_di_Biblioteca_nazionale_centrale_di_Roma\n      a       cis:ContactPoint ;\n      rdfs:label \"Contatti di: Biblioteca nazionale centrale di Roma\"@it ;\n      cis:available   openingHoursSpecification:Orari_di_apertura_di_Biblioteca_nazionale_centrale_di_Roma_giovedi ;\n      cis:hasCertifiedEmail\n              mailto:mbac-bnc-rm@mailcert.beniculturali.it ;\n      cis:hasEmail mailto:bnc-rm@beniculturali.it ;\n      cis:hasFax \"+39064457635  \" ;\n      cis:hasTelephone \"+390649891\" .\n\ncissite:Biblioteca_nazionale_centrale\n      a       cis:Library , cis:CulturalInstituteOrSite ;\n      cis:hasContactPoint contactPoint:Contatti_di_Biblioteca_nazionale_centrale_di_Roma .\n\n</pre>"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It represents a contact point which consists of phone numbers, e-mail addresses, web sites and their availability where applicable. We recommend the domain experts to specify better during the data production phase which type of contact point is in use (administrative contact point, tourist contact point, etc,)."
+  }, {
+    "@language" : "it",
+    "@value" : "Rappresenta un punto di contatto (racchiude numeri di telefono, fax, indirizzi e-mail, siti web e relative disponibilità ove applicabili). Si raccomanda agli esperti di dominio di aver cura in fase di utilizzo di distinguere ulteriormente il tipo di punto di contatto (turistico, amministrativo, ecc)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Contact Point"
+  }, {
+    "@language" : "it",
+    "@value" : "Punto di Contatto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid10"
+  }, {
+    "@id" : "_:genid11"
+  }, {
+    "@id" : "_:genid12"
+  }, {
+    "@id" : "_:genid13"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/CulturalInstituteOrSite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/img/cis.png"
+  }, {
+    "@language" : "en",
+    "@value" : "An example of usage of the class 'Cultural Institute or Site' is the following:\n\n<pre>\n\ncissite:Biblioteca_nazionale_centrale\n      a       cis:Library , cis:CulturalInstituteOrSite ;\n      rdfs:comment \"\"\"La Biblioteca Nazionale Centrale di Roma fu inaugurata il 14 marzo 1876 in un'ala del \n      monumentale Palazzo cinquecentesco del Collegio Romano, sede dell'antica Bibliotheca Secreta o Major dei Gesuiti, \n      che costituì il nucleo originario della nuova istituzione, cui si aggiunsero i fondi manoscritti e a stampa di 69 \n      biblioteche conventuali devolute al Regno d'Italia dopo la soppressione delle corporazioni religiose di Roma \n      nel 1873. \n\t  Cento anni dopo la Biblioteca venne trasferita nella nuova sede, all'interno della zona archeologica del \n\t  Castro Pretorio, fra la Città universitaria e la Stazione Termini, realizzata su progetto degli architetti Massimo\n      Castellazzi, Tullio Dell'Anese e Annibale Vitellozzi.\"\"\"@it ;\n      rdfs:label \"Biblioteca nazionale centrale\"@it ;\n      cis:ISILIdentifier \"IT-RM0267\"^^xsd:string ;\n      cis:description \"\"\"La Biblioteca Nazionale Centrale di Roma fu inaugurata il 14 marzo 1876 in un'ala del \n      monumentale Palazzo cinquecentesco del Collegio Romano, sede dell'antica Bibliotheca Secreta o Major dei Gesuiti, \n      che costituì il nucleo originario della nuova istituzione, cui si aggiunsero i fondi manoscritti e a stampa di 69 \n      biblioteche conventuali devolute al Regno d'Italia dopo la soppressione delle corporazioni religiose di Roma \n      nel 1873. Cento anni dopo la Biblioteca venne trasferita nella nuova sede, all'interno della zona archeologica \n      del Castro Pretorio, fra la Città universitaria e la Stazione Termini, realizzata su progetto degli architetti \n      Massimo Castellazzi, Tullio Dell'Anese e Annibale Vitellozzi.\"\"\"@it ;\n      cis:hasAccessCondition\n              <http://dati.beniculturali.it/cis/resource/OpeningHoursSpecification/Orari_di_apertura_di_Biblioteca_nazionale_centrale_di_Roma_giovedi> , \n              <http://dati.beniculturali.it/cis/resource/OpeningHoursSpecification/Orari_di_apertura_di_Biblioteca_nazionale_centrale_di_Roma_mercoledi> , \n              <http://dati.beniculturali.it/cis/resource/OpeningHoursSpecification/Orari_di_apertura_di_Biblioteca_nazionale_centrale_di_Roma_lunedi> , \n              <http://dati.beniculturali.it/cis/resource/OpeningHoursSpecification/Orari_di_apertura_di_Biblioteca_nazionale_centrale_di_Roma_martedi> , <http://dati.beniculturali.it/cis/resource/OpeningHoursSpecification/Orari_di_apertura_di_Biblioteca_nazionale_centrale_di_Roma_venerdi> ;\n      cis:hasCatalogue <http://dati.beniculturali.it/cis/resource/Catalogue/Catalogo_Generale_%28topografico%29> , <http://dati.beniculturali.it/cis/resource/Catalogue/Catalogo_Generale_%28titoli%29> , <http://dati.beniculturali.it/cis/resource/Catalogue/Catalogo_Generale_%28autore%29> , <http://dati.beniculturali.it/cis/resource/Catalogue/Catalogo_Generale_%28sistematico%29> , <http://dati.beniculturali.it/cis/resource/Catalogue/Catalogo_Generale_%28soggetto%29> ;\n      cis:hasCollection collezioni:Patrimonio_di_Biblioteca_nazionale_centrale_di_Roma ;\n      cis:hasContactPoint contactPoint:Contatti_di_Biblioteca_nazionale_centrale_di_Roma ;\n      cis:hasNameInTime nameInTime:Biblioteca_Nazionale_Centrale ;\n      cis:hasSite site:Sede_di_Biblioteca_nazionale_centrale_di_Roma ;\n      cis:institutionalName\n              \"Biblioteca Nazionale Centrale\"@it ;\n      cis:providesService service:Connessione_WI-FI , service:Visite_guidate , service:ala_per_la_didattica ;\n      owl:sameAs   <http://it.dbpedia.org/resource/Biblioteca_Nazionale_Centrale_di_Roma> ;\n      cis:institutionalName \"\"Biblioteca nazionale centrale\"@it .\n\n</pre>"
+  }, {
+    "@language" : "it",
+    "@value" : "Un esempio di utilizzo della classe \"Istituto e Luogo della Cultura\" è il seguente:\n\n<pre>\n\ncissite:Biblioteca_nazionale_centrale\n      a       cis:Library , cis:CulturalInstituteOrSite ;\n      rdfs:comment \"La Biblioteca Nazionale Centrale di Roma fu inaugurata il 14 marzo 1876 in un'ala del \n      monumentale Palazzo cinquecentesco del Collegio Romano, sede dell'antica Bibliotheca Secreta o Major dei Gesuiti, \n      che costituì il nucleo originario della nuova istituzione, cui si aggiunsero i fondi manoscritti e a stampa di 69 \n      biblioteche conventuali devolute al Regno d'Italia dopo la soppressione delle corporazioni religiose di Roma \n      nel 1873. \n\t  Cento anni dopo la Biblioteca venne trasferita nella nuova sede, all'interno della zona archeologica del \n\t  Castro Pretorio, fra la Città universitaria e la Stazione Termini, realizzata su progetto degli architetti Massimo\n      Castellazzi, Tullio Dell'Anese e Annibale Vitellozzi.\"\"\"@it ;\n      rdfs:label \"Biblioteca nazionale centrale\"@it ;\n      cis:ISILIdentifier \"IT-RM0267\"^^xsd:string ;\n      cis:description \"\"La Biblioteca Nazionale Centrale di Roma fu inaugurata il 14 marzo 1876 in un'ala del \n      monumentale Palazzo cinquecentesco del Collegio Romano, sede dell'antica Bibliotheca Secreta o Major dei Gesuiti, \n      che costituì il nucleo originario della nuova istituzione, cui si aggiunsero i fondi manoscritti e a stampa di 69 \n      biblioteche conventuali devolute al Regno d'Italia dopo la soppressione delle corporazioni religiose di Roma \n      nel 1873. Cento anni dopo la Biblioteca venne trasferita nella nuova sede, all'interno della zona archeologica \n      del Castro Pretorio, fra la Città universitaria e la Stazione Termini, realizzata su progetto degli architetti \n      Massimo Castellazzi, Tullio Dell'Anese e Annibale Vitellozzi.\"\"\"@it ;\n      cis:hasAccessCondition\n              <http://dati.beniculturali.it/cis/resource/OpeningHoursSpecification/Orari_di_apertura_di_Biblioteca_nazionale_centrale_di_Roma_giovedi> , \n              <http://dati.beniculturali.it/cis/resource/OpeningHoursSpecification/Orari_di_apertura_di_Biblioteca_nazionale_centrale_di_Roma_mercoledi> , \n              <http://dati.beniculturali.it/cis/resource/OpeningHoursSpecification/Orari_di_apertura_di_Biblioteca_nazionale_centrale_di_Roma_lunedi> , \n              <http://dati.beniculturali.it/cis/resource/OpeningHoursSpecification/Orari_di_apertura_di_Biblioteca_nazionale_centrale_di_Roma_martedi> , <http://dati.beniculturali.it/cis/resource/OpeningHoursSpecification/Orari_di_apertura_di_Biblioteca_nazionale_centrale_di_Roma_venerdi> ;\n      cis:hasCatalogue <http://dati.beniculturali.it/cis/resource/Catalogue/Catalogo_Generale_%28topografico%29> , <http://dati.beniculturali.it/cis/resource/Catalogue/Catalogo_Generale_%28titoli%29> , <http://dati.beniculturali.it/cis/resource/Catalogue/Catalogo_Generale_%28autore%29> , <http://dati.beniculturali.it/cis/resource/Catalogue/Catalogo_Generale_%28sistematico%29> , <http://dati.beniculturali.it/cis/resource/Catalogue/Catalogo_Generale_(soggetto)> ;\n      cis:hasCollection collezioni:Patrimonio_di_Biblioteca_nazionale_centrale_di_Roma ;\n      cis:hasContactPoint contactPoint:Contatti_di_Biblioteca_nazionale_centrale_di_Roma ;\n      cis:hasNameInTime nameInTime:Biblioteca_Nazionale_Centrale ;\n      cis:hasSite site:Sede_di_Biblioteca_nazionale_centrale_di_Roma ;\n      cis:institutionalName\n              \"Biblioteca Nazionale Centrale\"@it ;\n      cis:providesService service:Connessione_WI-FI , service:Visite_guidate , service:ala_per_la_didattica ;\n      owl:sameAs <http://it.dbpedia.org/resource/Biblioteca_Nazionale_Centrale_di_Roma> ;\n       cis:institutionalName \"Biblioteca nazionale centrale\"@it .\n\n</pre>"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Sono istituti e luoghi della cultura i musei, le biblioteche e gli archivi, le aree e i parchi archeologici, i complessi monumentali. Gli istituti e luoghi e della cultura che appartengono a soggetti pubblici sono destinati alla pubblica fruizione ed espletano un servizio pubblico. Le strutture espositive e di consultazione nonché i luoghi della cultura che appartengono a soggetti privati e sono aperti al pubblico espletano un servizio privato di utilità sociale."
+  }, {
+    "@language" : "en",
+    "@value" : "The class Cultural Institute or Site represents museums, libraries, archive holders, archaeologic areas and parks, monumental areas. The cultural institutes of sites that are owned by public bodies are meant to offer public services. The cultural institutes or sites that are owned by private subjects, and are open to the public, offer a public and societal service."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cultural Institute or Site"
+  }, {
+    "@language" : "it",
+    "@value" : "Istituto e Luogo Della Cultura"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid14"
+  }, {
+    "@id" : "_:genid15"
+  }, {
+    "@id" : "_:genid16"
+  }, {
+    "@id" : "_:genid17"
+  }, {
+    "@id" : "_:genid18"
+  }, {
+    "@id" : "_:genid19"
+  }, {
+    "@id" : "_:genid20"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/DayOfWeek",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/img/openingHoursSpecification.png"
+  }, {
+    "@language" : "en",
+    "@value" : "An example of usage of the class cis:DayOfTheWeek is the following:\n\n<pre>\n\norari:Orari_di_apertura_di_Biblioteca_nazionale_centrale_di_Roma_giovedi\n      a       cis:OpeningHoursSpecification ;\n      rdfs:label \"Opening Hours of Biblioteca nazionale centrale di Roma - thursday\"@en , \n      \"Orari di apertura di Biblioteca nazionale centrale di Roma - giovedì\"@it ;\n      cis:closes \"19:00:00\"^^xsd:time ;\n      cis:hasAdmissionType addmissionType:Tipo_di_apertura_al_pubblico ;\n      cis:hasDayOfWeek cis:Thursday ;\n      cis:opens \"08:30:00\"^^xsd:time .\n\n</pre>\n\nFor the complete example see the class cis:OpeningHoursSpecification"
+  }, {
+    "@language" : "it",
+    "@value" : "Un esempio di utilizzo della classe cis:DayOfTheWeek è il seguente:\n\n<pre>\n\norari:Orari_di_apertura_di_Biblioteca_nazionale_centrale_di_Roma_giovedi\n      a       cis:OpeningHoursSpecification ;\n      rdfs:label \"Opening Hours of Biblioteca nazionale centrale di Roma - thursday\"@en , \n      \"Orari di apertura di Biblioteca nazionale centrale di Roma - giovedì\"@it ;\n      cis:closes \"19:00:00\"^^xsd:time ;\n      cis:hasAdmissionType addmissionType:Tipo_di_apertura_al_pubblico ;\n      cis:hasDayOfWeek cis:Thursday ;\n      cis:opens \"08:30:00\"^^xsd:time .\n\n</pre>\n\nPer un esempio più completo si veda la classe cis:OpeningHoursSpecification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Classe che rappresenta l'insieme dei giorni della settimana."
+  }, {
+    "@language" : "en",
+    "@value" : "This class represents the set of all the days of the week."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Day of the Week"
+  }, {
+    "@language" : "it",
+    "@value" : "Giorno della settimana "
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "en",
+    "@value" : "unstable"
+  }, {
+    "@language" : "it",
+    "@value" : "versione non definitiva"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/Friday",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/DayOfWeek"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Friday"
+  }, {
+    "@language" : "it",
+    "@value" : "Venerdì"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/GeographicalFeature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/img/geographicalArea.png"
+  }, {
+    "@language" : "it",
+    "@value" : "Questa classe consente di descrivere un'area geografica. \n\nLe aree geografiche sono semrep associate a individui della classe Sede attraverso la proprietà ha locazione geografica (dominio Sede e codonimio Area Geografica).\n\nUn area geografica è descritta dall'insieme di individui della classe geometria. Un individuo della classe geometria è descritto utilizzando le coordinate del sistema di riferimento come per esempio WGS84. E? univocamente identificata da latitudine e longitudine. Questo significa che un area geografica può essere un punto, una linea o un poligono. \n\nPer esempio, il seguente frammento di codice in turtle fornisce rappresenta un area geografica corrispondente alla sede della Biblioteca Centrale di Roma.\n\n<pre>\n\n\nsite:Sede_di_Biblioteca_nazionale_centrale_di_Roma\n      a       cis:Site ;\n      cis:hasGeographicalLocation\n              geographicalArea:Comune_di_Roma ;\n      cis:isSiteOf cissite:Biblioteca_nazionale_centrale ;\n      cis:name \"Biblioteca nazionale centrale di Roma\"@it .\n\ngeographicalArea:Comune_di_Roma\n      a       cis:GeographicalArea ;\n      rdfs:label \"Comune di Roma\"@it ;\n      cis:toponym \"Roma\" ;\n      owl:sameAs      <http://spcdata.digitpa.gov.it/Comune/H501> , <http://datiopen.istat.it/odi/risorsa/territorio/comuni/Roma_58091> ;\n      hasGeometry geometry:Comune_di_Roma .\n\ngeometry:Comune_di_Roma\n      a       cis:Geometry ;\n      geo:lat \"41.906784\" ;\n      geo:long \"12.504962\" .\n\t\n</pre>"
+  }, {
+    "@language" : "en",
+    "@value" : "This class allows describing a geographical area.\nGeographical areas are always associated with individuals of the class 'Site' by means of the object property hasGeographicalLocation (domain Site and range 'Geographical Area').\n\nA geographical area is described by a set of individuals of the class Geometry. A individual of the class Geometry is described by using a coordinate system related to Earth such as WGS84. It is univocally identified by lat/long. This means that a geographical area can be a point, a line or a polygon.\n\nFor example, the following snippet provides a turtle model that represents a Geographical Area corresponding to the Site of the Biblioteca Centrale di Roma.\n\n<pre>\n\n\nsite:Sede_di_Biblioteca_nazionale_centrale_di_Roma\n      a       cis:Site ;\n      cis:hasGeographicalLocation\n              geographicalArea:Comune_di_Roma ;\n      cis:isSiteOf cissite:Biblioteca_nazionale_centrale ;\n      cis:name \"Biblioteca nazionale centrale di Roma\"@it .\n\ngeographicalArea:Comune_di_Roma\n      a       cis:GeographicalArea ;\n      rdfs:label \"Comune di Roma\"@it ;\n      cis:toponym \"Roma\" ;\n      owl:sameAs      <http://spcdata.digitpa.gov.it/Comune/H501> , <http://datiopen.istat.it/odi/risorsa/territorio/comuni/Roma_58091> ;\n      hasGeometry geometry:Comune_di_Roma .\n\ngeometry:Comune_di_Roma\n      a       cis:Geometry ;\n      geo:lat \"41.906784\" ;\n      geo:long \"12.504962\" .\n\t\n</pre>"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It represents a geographical feature. It can be used to model a municipality or an area across different administrative areas."
+  }, {
+    "@language" : "it",
+    "@value" : "Rappresenta una caratteristica  geografica. Può essere usata per rappresentare un comune, o un'area che ricomprendere diverse aree ammistrative."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Area Geografica"
+  }, {
+    "@language" : "en",
+    "@value" : "Geographical Area"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid21"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/Geometry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "An example of usage of the class cis:Geometry is the following:\n<pre>\n\ngeometry:Museo_di_Capodimonte_Geometry\n      a       cis:Geometry ;\n      rdfs:label \"Coordinate geografiche della sede di Museo di Capodimonte\"@it;\n      cis:hasLat \"40.867424\" ;\n      cis:geometryType \"Point\";\n      cis:geoMethodology \"Satellite data georeferentiation\" ;\n      cis:hasLong \"14.249192\".\n\n</pre>\n\nFor a complete example refer to the class cis:GeographicalFeature"
+  }, {
+    "@language" : "it",
+    "@value" : "Un esempio di utilizzo della classe cis:Geomery è il seguente:\n<pre>\n\ngeometry:Museo_di_Capodimonte_Geometry\n      a       cis:Geometry ;\n      rdfs:label \"Coordinate geografiche della sede di Museo di Capodimonte\"@it;\n      cis:hasLat \"40.867424\" ;\n      cis:geometryType \"Point\";\n      cis:geoMethodology \"Satellite data georeferentiation\" ;\n      cis:hasLong \"14.249192\".\n\n</pre>\n\nPer un esempio complete si veda la classe cis:GeographicalFeature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It represents a geometry which is typically described by using a coordinate system related to Earth such as WGS84. It is univocally identified by lat/long"
+  }, {
+    "@language" : "it",
+    "@value" : "Rappresenta una geometria tipicamente descritto utilizzando un sistema di coordinate geografiche come per esempio WGS84. Univocamente identificato da Lat/Long"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Geometria"
+  }, {
+    "@language" : "en",
+    "@value" : "Geometry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid22"
+  }, {
+    "@id" : "_:genid23"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/GovernamentalAdministrativeArea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "An example of usage of the class cis:GovernamentalAdministrativeArea is the following:\n\n<pre>\n\ngaa:Lazio\n    a cis:GovernamentalAdministrativeArea ;\n    rdfs:label \"Lazio\" ;\n    cis:toponym \"Lazio\" ;\n    cis:hasISTATCode \"12\" .\n\n</pre>"
+  }, {
+    "@language" : "it",
+    "@value" : "Un esempio di utilizzo della classe cis:GovernamentalAdministrativeArea è il seguente:\n<pre>\n\ngaa:Lazio\n    a cis:GovernamentalAdministrativeArea ;\n    rdfs:\"Lazio\";;\n    cis:toponym \"Lazio\";;\n    cis:hasISTATCode \"12\" .\n\n</pre>"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Questa classe rappresenta un'area amministrativa territoriale statale gestita tipicamente da un organismo pubblico. Essa può essere una Regione, una Provincia, un Comune, un area sub comunale, etc."
+  }, {
+    "@language" : "en",
+    "@value" : "This class represents an administrative geographical area that is typically managed by a public body. It can be a Region, a Municipality, a Province, a sub-municipality area, etc."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Area Amministrativa statale"
+  }, {
+    "@language" : "en",
+    "@value" : "Governamental Administrative Area"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/GeographicalFeature"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/ISILIdentifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Questa proprietà è utilizzata per rappresentare l'identificativo univoco dell'Istituto e luogo della cultura, i.e., il codice ISIL (International Standard identifier for Libraries and Related Organization). Sotto proprietà di identificativo."
+  }, {
+    "@language" : "en",
+    "@value" : "This property is used to define the unique identifier of the cultural institute or site (i.e., the ISIL - International Standard Identifier for Libriaries and Related Organization - code). Subproperty of identifier."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/CulturalInstituteOrSite"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ISIL identifier"
+  }, {
+    "@language" : "it",
+    "@value" : "Identificativo ISIL"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/identifier"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "Stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "Stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/Library",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Library"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/CulturalInstituteOrSite"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/Monday",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/DayOfWeek"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Lunedì "
+  }, {
+    "@language" : "en",
+    "@value" : "Monday "
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/OpeningHoursSpecification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/img/openingHoursSpecification.png"
+  }, {
+    "@language" : "en",
+    "@value" : "Individuals of this class specify a particula access conditions, i.e., the opening hours of a 'Cultural Institute or Site' or an 'Event'.\n\nOpening hours are represented in terms of:\n   * opening time (cf. property opens);\n   * closing time (cf. property closes);\n   * the day of the week that the opening specification refers to (cf. property hasDayOfWeek);\n   * the admission type, e.g. weekly, monthly, daily, etc (cf. property hasAdmmissionType).\n\nAn example in turtle is the following:\n\n<pre>\n\ncissite:Biblioteca_nazionale_centrale\n      a       cis:Library , cis:CulturalInstituteOrSite ;\n      cis:hasAccessCondition            orari:Orari_di_apertura_di_Biblioteca_nazionale_centrale_di_Roma_giovedi\n\norari:Orari_di_apertura_di_Biblioteca_nazionale_centrale_di_Roma_giovedi\n      a       cis:OpeningHoursSpecification ;\n      rdfs:label \"Opening Hours of Biblioteca nazionale centrale di Roma - thursday\"@en , \n      \"Orari di apertura di Biblioteca nazionale centrale di Roma - giovedì\"@it ;\n      cis:closes \"19:00:00\"^^xsd:time ;\n      cis:hasAdmissionType          addmissionType:Tipo_di_apertura_al_pubblico ;\n      cis:hasDayOfWeek cis:Thursday ;\n      cis:opens \"08:30:00\"^^xsd:time .\n\nadmissionType:Tipo_di_apertura_al_pubblico\n      a       cis:AdmissionType ;\n      cis:description \"daily\" .\n\n</pre>"
+  }, {
+    "@language" : "it",
+    "@value" : "Individui di questa classe specificano particolari condizioni di accesso ai luoghi della cultura o eventi, i.e., gli orari di apertura dei luoghi o degli eventi.\n\nGli orari di apertura sono espressi in termini di \n * orario apertura (con la proprietà \"apre\")\n * orario di chiusura (con la proprietà \"chiude\")\n * il giorno della settimana a cui l'orario di apertura si riferisce (con la proprietà ha giorno della settimana)\n * il tipo di apertura (settimanale, mensile, giornaliera, ecc) (con la proprietà ha tipo di apertura)\n\nUn esempio in turle è il seguente:\n<pre>\n\ncissite:Biblioteca_nazionale_centrale\n      a       cis:Library , cis:CulturalInstituteOrSite ;\n      cis:hasAccessCondition            orari:Orari_di_apertura_di_Biblioteca_nazionale_centrale_di_Roma_giovedi\n\norari:Orari_di_apertura_di_Biblioteca_nazionale_centrale_di_Roma_giovedi\n      a       cis:OpeningHoursSpecification ;\n      rdfs:label \"Opening Hours of Biblioteca nazionale centrale di Roma - thursday\"@en , \n      \"Orari di apertura di Biblioteca nazionale centrale di Roma - giovedì\"@it ;\n      cis:closes \"19:00:00\"^^xsd:time ;\n      cis:hasAdmissionType          addmissionType:Tipo_di_apertura_al_pubblico ;\n      cis:hasDayOfWeek cis:Thursday ;\n      cis:opens \"08:30:00\"^^xsd:time .\n\nadmissionType:Tipo_di_apertura_al_pubblico\n      a       cis:AdmissionType ;\n      cis:description \"daily\" .\n\n</pre>"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It represents the opening hours specification "
+  }, {
+    "@language" : "it",
+    "@value" : "Rappresenta gli orari di apertura"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Opening Hours Specification"
+  }, {
+    "@language" : "it",
+    "@value" : "Orari di Apertura"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/AccessCondition"
+  }, {
+    "@id" : "_:genid24"
+  }, {
+    "@id" : "_:genid25"
+  }, {
+    "@id" : "_:genid26"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/Saturday",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/DayOfWeek"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Sabato"
+  }, {
+    "@language" : "en",
+    "@value" : "Saturday"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/Service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "A Cultural Institute or Site (CIS) might offer a variety of services (e.g., Wi-Fi Handicapped access, cafeteria, etc.).\n\nThese services are represented as individuals of the class 'Service' and they are in relationship with a CIS by means of the object property providesService.\n\nThe following is an example expressed by using the turtle syntax:\n\n<pre>\n\nservice:Caffetteria\n      a       cis:Service ;\n      cis:name \"Caffetteria\" .\n\n\nservice:Connessione_WI-FI\n      a       cis:Service ;\n      cis:name \"Connessione WI-FI\" .\n\n\ncissite:Biblioteca_nazionale_centrale\n      a       cis:Library , cis:CulturalInstituteOrSite ;\n      cis:providesService service:Caffetteria, service:Connessione_WI-FI.\n\n</pre>"
+  }, {
+    "@language" : "it",
+    "@value" : "Un istituto della cultura può offrire una serie di servizi (e.g., Wi-Fi, accesso ai disabili, caffetteria, ecc.).\n\nQuesti servizi sono rappresentati da individui della classe \"Servizio\" e sono in relazione con l'istituto della cultural attraverso la proprietà \"fornisce servizio\".\n\nIl seguente esempio mostra in turtle l'uso della classe servizio:\n\n<pre>\n\nservice:Caffetteria\n      a       cis:Service ;\n      cis:name \"Caffetteria\" .\n\n\nservice:Connessione_WI-FI\n      a       cis:Service ;\n      cis:name \"Connessione WI-FI\" .\n\n\ncissite:Biblioteca_nazionale_centrale\n      a       cis:Library , cis:CulturalInstituteOrSite ;\n      cis:providesService service:Caffetteria, service:Connessione_WI-FI.\n\n</pre>"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It represents a service that is provided by the Cultural Institute or Site. For instance, a service can be: the presence of a restaurant internal to the Cultural Institute or Site, the uso of an educational room, the use of a free wifi connection"
+  }, {
+    "@language" : "it",
+    "@value" : "Rappresenta un servizio offerto da un istituto e luogo della cultura. Per esempio, un servizio può essere: la presenza di un ristorante interno al luogo, l'uso una sala didattica, l'uso di una connessione wifi libera, ecc."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Service"
+  }, {
+    "@language" : "it",
+    "@value" : "Servizio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid27"
+  }, {
+    "@id" : "_:genid28"
+  }, {
+    "@id" : "_:genid29"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/Site",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "A site is always associated with an individual of the class 'Cultural Institute or Site' (CIS) by means of the object property hasSite.\n\nA site is characterised by the following properties:\n\n * hasAddress that allows associating the site with an indidivdual of the class Address, this latter providing the description of the address;\n * hasContactPoint that associates the site with an individual identifying a contact point;\n * hasGeographicalLocation for relating the site to the description of its geographical features, that, in turn, is represented by means of an individual of the class 'Geographical Area';\n * name that is the datatype property for associating the site with a literal expressing a name;\n * isSiteOf that is the inverse property of hasSite.\n\nThe following is an example of a Site and its association with a CIS\n\n<pre>\n\n\nsite:Sede_di_Biblioteca_nazionale_centrale_di_Roma\n      a       cis:Site ;\n      rdfs:label \"Sede Biblioteca nazionale centrale di Roma\"@it ;\n      cis:hasAddress address:Indirizzo_della_sede_di_Biblioteca_nazionale_centrale_di_Roma ;\n      cis:hasContactPoint contactPoint:Contatti_di_Biblioteca_nazionale_centrale_di_Roma ;\n      cis:hasGeographicalLocation\n              geographicalFeature:Comune_di_Roma ;\n      cis:isSiteOf cissite:Biblioteca_nazionale_centrale ;\n      cis:name \"Sede di: Biblioteca nazionale centrale di Roma\"@it .\n\ncissite:Biblioteca_nazionale_centrale\n      a       cis:Library , cis:CulturalInstituteOrSite ;\n      cis:hasSite site:Sede_di_Biblioteca_nazionale_centrale_di_Roma .\n\n</pre>"
+  }, {
+    "@language" : "it",
+    "@value" : "Una sede è sempre associata agli individui della classe \"Istituto e Luogo della Cultura\" attraverso la proprietà ha sede.\n\nUna sede è caratterizzata dalle seguenti proprietà:\n * ha indirizzo: consente di associare una sede con un individuo della classe indirizzo che fornisce la descrizione dell'indirizzo;\n * ha punto di contatto: consente di associare una sede con un individuo che identifica un punto di contatto;\n * ha locazione geografica: consente di associare la sede con la descrizione dell'area geografica \n* nome: una proprietà che consente di specificare il nome della sede\n* è sede di: la proprietà inversa di ha sede\n\nIl seguente esempio in turle mostra una sede associata a un istituto e luogo della cultura:\n\n<pre>\n\n\nsite:Sede_di_Biblioteca_nazionale_centrale_di_Roma\n      a       cis:Site ;\n      rdfs:label \"Sede Biblioteca nazionale centrale di Roma\"@it ;\n      cis:hasAddress address:Indirizzo_della_sede_di_Biblioteca_nazionale_centrale_di_Roma ;\n      cis:hasContactPoint contactPoint:Contatti_di_Biblioteca_nazionale_centrale_di_Roma ;\n      cis:hasGeographicalLocation\n              geographicalFeature:Comune_di_Roma ;\n      cis:isSiteOf cissite:Biblioteca_nazionale_centrale ;\n      cis:name \"Sede di: Biblioteca nazionale centrale di Roma\"@it .\n\ncissite:Biblioteca_nazionale_centrale\n      a       cis:Library , cis:CulturalInstituteOrSite ;\n      cis:hasSite site:Sede_di_Biblioteca_nazionale_centrale_di_Roma .\n\n</pre>"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It represents a georeferenced physical site related to the Cultural Institute or Site. A Cultural Institute or Site can be located in more than one physical site. For instance, a Site can be \"Palazzo Venezia\" which is the site of the \"Museum of Palazzo Venezia\" and of \"Library of Archaelogy and Art History\"."
+  }, {
+    "@language" : "it",
+    "@value" : "Rappresenta un luogo fisico georeferenziato relativo all'Istituto e luogo della Cultura. Un Istituto e Luogo della Cultura può avere più di un luogo fisico associato. Nell'ambito dell'Istituto Centrale per il Catalogo e la Documentazione (ICC)D) tale concetto rappresenta il contenitore fisico. Per esempio, un luogo fisico può essere \"Palazzo Venezia\" dove ha sede il \"Museo Nazionale di Palazzo Venezia\" o la \"Biblioteca di Archeologia e Storia dell'Arte\"."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Sede"
+  }, {
+    "@language" : "en",
+    "@value" : "Site"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid30"
+  }, {
+    "@id" : "_:genid31"
+  }, {
+    "@id" : "_:genid32"
+  }, {
+    "@id" : "_:genid33"
+  }, {
+    "@id" : "_:genid34"
+  }, {
+    "@id" : "_:genid35"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/Sunday",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/DayOfWeek"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Domenica"
+  }, {
+    "@language" : "en",
+    "@value" : "Sunday"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/TemporaryClosure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "A temporary closure is a subclass of 'AccessCondition' whose individuals provide information about a temporary closure.\nThese individuals are described in terms of:\n * the closure date (cf. property hasDate);\n * the reason about the temporary closure (cf. property hasReason);\n * the type associated with the temporary closure (cf. property hasTemporaryClosureType).\n\nAn example in turtle is the following:\n\n<pre>\ncissite:Biblioteca_nazionale_centrale\n      a       cis:Library , cis:CulturalInstituteOrSite ;\n      cis:hasAccessCondition            orari:Chiusura_estiva_di_Biblioteca_nazionale_centrale_di_Roma\n\norari:Chiusura_estiva_di_Biblioteca_nazionale_centrale_di_Roma\n      cis:hasDate \"2015-08-15\"^^xsd:dateTime ;\n      cis:hasReason \"Chiusura estiva\" ;\n</pre>"
+  }, {
+    "@language" : "it",
+    "@value" : "La chiusura temporanea è una sottoclasse di Condizioni di accesso i cui individui forniscono informazioni sulla chiusura temporanea.\n\nGli individui sono descritti in termini di:\n * data di chiusura (con la proprietà ha data);\n * la motivazione per la chiusura (con la proprietà ha motivazione)\n * il tipo associato con la chiusura temporanea (con la proprietà ha tipo chiusura temporanea)\n\nUn esempio è il seguente:\n<pre>\ncissite:Biblioteca_nazionale_centrale\n      a       cis:Library , cis:CulturalInstituteOrSite ;\n      cis:hasAccessCondition            orari:Chiusura_estiva_di_Biblioteca_nazionale_centrale_di_Roma\n\norari:Chiusura_estiva_di_Biblioteca_nazionale_centrale_di_Roma\n      cis:hasDate \"2015-08-15\"^^xsd:dateTime ;\n      cis:hasReason \"Chiusura estiva\" ;\n</pre>"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It represents the information on the temporary closure "
+  }, {
+    "@language" : "it",
+    "@value" : "Rappresenta le informazioni sulla chiusura temporanea"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Chiusura Temporanea"
+  }, {
+    "@language" : "en",
+    "@value" : "Temporary Closure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/AccessCondition"
+  }, {
+    "@id" : "_:genid36"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/Thursday",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/DayOfWeek"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Giovedì "
+  }, {
+    "@language" : "en",
+    "@value" : "Thursday "
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/TimeInterval",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "An example of usage of the class cis:TimeInterval is the following:\n\n<pre>\n\ntimeInteval:Andrea_De_Pasquale_DirectorOfBibliotecaNazionaleCentrale_20130101_20161231\n    a cis:TimeInterval ;\n    rdfs:label \"Andrea De Pasquale director of Biblioteca Nazionale from 2013-01-01 to 2016-12-31\"@en ;\n    cis:startDate \"2013-01-01\"^^xsd:dateTime ;\n    cis:endDate \"2016-12-31\"^^xsd:dateTime .\n\n</pre>"
+  }, {
+    "@language" : "it",
+    "@value" : "Un esempio di utilizzo della classe cis:TimeInterval è il seguente:\n\n<pre>\n\ntimeInteval:Andrea_De_Pasquale_DirectorOfBibliotecaNazionaleCentrale_20130101_20161231\n    a cis:TimeInterval ;\n    rdfs:label \"Andrea De Pasquale director of Biblioteca Nazionale from 2013-01-01 to 2016-12-31\"@en ;\n    cis:startDate \"2013-01-01\"^^xsd:dateTime ;\n    cis:endDate \"2016-12-31\"^^xsd:dateTime .\n\n</pre>"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It represents a temporal interval"
+  }, {
+    "@language" : "it",
+    "@value" : "Rappresenta un intervallo temporale."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Intervallo di Tempo"
+  }, {
+    "@language" : "en",
+    "@value" : "Time Interval"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid37"
+  }, {
+    "@id" : "_:genid38"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/Tuesday",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/DayOfWeek"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Martedì"
+  }, {
+    "@language" : "en",
+    "@value" : "Tuesday"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/Wednesday",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/DayOfWeek"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Mercoledì"
+  }, {
+    "@language" : "en",
+    "@value" : "Wednesday"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/accessConditionFor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Inverse property of \"has access condition\""
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà inversa di \"ha condizione di accesso\""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/AccessCondition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "access condition for"
+  }, {
+    "@language" : "it",
+    "@value" : "condizione di accesso per"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/CulturalInstituteOrSite"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/hasAccessCondition"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/addressID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property used to represent the globally unique identifier for each instance of an address. A crucial part of the INSPIRE data specifications. Subproperty of identifier."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà utilizzata per rappresentare un identificatore univoco per ciascuna istanza di un indirizzo, Rappresenta un elemento cruciale delle specifiche INSPIRE. Sottoproprietà di identificativo."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/Address"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "address identifier"
+  }, {
+    "@language" : "it",
+    "@value" : "identificativo dell'indirizzo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/identifier"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "versione ancora non definitiva"
+  }, {
+    "@value" : "unstable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/available",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property used to associate a contact point with hours specification in which the contact point is available."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà utilizzata per associare  un punto di contatto a fasce orarie in cui il punto di contatto è disponibile."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/ContactPoint"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "available"
+  }, {
+    "@language" : "it",
+    "@value" : "disponibile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/OpeningHoursSpecification"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/catalogue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property used to associate the Cultural Institute or SIte with a catalogue of cultural collections included in the institute or site. The relatioships can be used to indicate that a Cultural Institute or Site has an its own catalogue or situations where a Cultural Institute or Site contributes to a union catalogue (this latter case is represented by libraries that can contribute to or participate in a union catalogue)."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà utilizzata per associare l'istituto e luogo della cultura a un  catalogo che descrive le opere in esso contenute. Tale relazione può essere utilizzata per indicare che un istituto e luogo della cultura ha un catalogo ma anche una situazione per cui un istituto e luogo della cultura partecipa a un catalogo (in quest'ultimo caso un esempio è rappresentato dalle biblioteche che possono partecipare a un catalogo collettivo)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/CulturalInstituteOrSite"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "catalogo"
+  }, {
+    "@language" : "en",
+    "@value" : "catalogue"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/Catalogue"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/isCatalogueOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/closes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Questa proprietà è utilizzata per rappresentare l'orario di chiusura."
+  }, {
+    "@language" : "en",
+    "@value" : "This property is used to represent the closing time"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/OpeningHoursSpecification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "chiude "
+  }, {
+    "@language" : "en",
+    "@value" : "closes "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#time"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/endDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Data di fine di un intervallo temporale"
+  }, {
+    "@language" : "en",
+    "@value" : "end Date of a Time Interval"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/TimeInterval"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "data di fine"
+  }, {
+    "@language" : "en",
+    "@value" : "end Date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/fullAddress",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property used to represent the full address of the site of a cultural institute or site."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà utilizzata per indicare l'indirizzo completo della sede di un istituto e luogo della cultura."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/Address"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "full address"
+  }, {
+    "@language" : "it",
+    "@value" : "indirizzo completo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/hasAccessCondition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property used to associate the Cultural Institute or Site or the Event with its access condition information"
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà utilizzata per associare l'istituto e luogo della cultura o l'evento con le condizioni di accesso."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/CulturalInstituteOrSite"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha condizioni di accesso"
+  }, {
+    "@language" : "en",
+    "@value" : "has access condition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/AccessCondition"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/hasAddress",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property that permits to associate a site with an address"
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà che consente di associare un sito fisico a un indirizzo."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/Site"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha indirizzo"
+  }, {
+    "@language" : "en",
+    "@value" : "has address"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/Address"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/hasContactPoint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property which links a cultural insttiute or site to its contact points. The same property is used to link in a similar way the event to its contact points and to link the site of the cultural institute or site with its contact points"
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà che collega un istituto e luogo della cultura ai propri punti di contatto. La stessa proprietà è utilizzata in maniera analoga per collegare il luogo fisico con i propri punti di contatto, ad anche per collegare un evento ai propri contatti"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/CulturalInstituteOrSite"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha punto di contatto"
+  }, {
+    "@language" : "en",
+    "@value" : "has contact point"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/ContactPoint"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/hasDayOfWeek",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Questa proprietà è utilizzata per specificare gli orari di apertura e in particolare i giorni della settimana."
+  }, {
+    "@language" : "en",
+    "@value" : "This property is used to specify the opening hours and in particular the days of the week."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/OpeningHoursSpecification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha giorno della settimana "
+  }, {
+    "@language" : "en",
+    "@value" : "has day of week "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/DayOfWeek"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/isDayOfWeekOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "en",
+    "@value" : "unstable"
+  }, {
+    "@language" : "it",
+    "@value" : "versione non definitiva"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/hasEmail",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property used to specify email address for a contact point"
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà utilizzata per specificare indirizzi email del punto di contatto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/ContactPoint"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha email"
+  }, {
+    "@language" : "en",
+    "@value" : "has email"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/hasGeographicalLocation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property used to associate a site with a geographical area where the site is located."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà che consente di associare una sede di un istituto e luogo della cultura a un'area geografica in cui si trova la sede."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/Site"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha locazione geografica"
+  }, {
+    "@language" : "en",
+    "@value" : "has geographical location"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/GeographicalFeature"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/hasGeometry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property used to associate a site with its own geographical coordinates"
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà utilizzata per associare un sito alle proprie coordinate geografiche."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/Site"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha geometria"
+  }, {
+    "@language" : "en",
+    "@value" : "has geometry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/Geometry"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/hasLat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property used to associate a latitude with a Point"
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà utilizzata per associare la latitudine a un punto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/Geometry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha latitudine"
+  }, {
+    "@language" : "en",
+    "@value" : "has latitude"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/hasLong",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property used to associate the longitude with a Point"
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà utilizzata per associare la longitudine a un punto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/Geometry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha longitudine"
+  }, {
+    "@language" : "en",
+    "@value" : "has longitude"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/hasReason",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property used to describe a reason for the temporary closure."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà utilizzata per descrivere una motivazione della chiusura temporanea."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/TemporaryClosure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha motivazione"
+  }, {
+    "@language" : "en",
+    "@value" : "has reason"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/hasSite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property which links a cultural institute or site to its own physical site(s)."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà che collega un istituto e luogo della cultura al proprio o ai propri siti fisici."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/CulturalInstituteOrSite"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha contenitore fisico"
+  }, {
+    "@language" : "it",
+    "@value" : "ha sede"
+  }, {
+    "@language" : "en",
+    "@value" : "has site"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/Site"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/isSiteOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/hasTelephone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property used to represent one or more telephone numbers for the contact point"
+  }, {
+    "@language" : "it",
+    "@value" : "proprietà utilizzata per rappresentare uno o più numeri di telefono per il punto di contatto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/ContactPoint"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha telefono"
+  }, {
+    "@language" : "en",
+    "@value" : "has telephone"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/hasWebSite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property used to represent a web site"
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà utilizzata per rappresentare un sito web"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/CulturalInstituteOrSite"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha sito web"
+  }, {
+    "@language" : "en",
+    "@value" : "has web site"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Questa proprietà rappresenta un identificativo per una cosa."
+  }, {
+    "@language" : "en",
+    "@value" : "This property represents an identifier for a Thing."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "identificativo"
+  }, {
+    "@language" : "en",
+    "@value" : "identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/institutionalName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Questa proprietà identifica direttamente il nome istituzionale dell'Istituto e luogo della cultura"
+  }, {
+    "@language" : "en",
+    "@value" : "This data property identifies  the institutional name of the Cultural Institute or Site."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/CulturalInstituteOrSite"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Nome Istituzionale"
+  }, {
+    "@value" : "Institutional Name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/name"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "Stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "Stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/isCatalogueOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Inverse property of \"has catalogue\"."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà inversa di \"ha catalogo\"."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/Catalogue"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is catalogue of"
+  }, {
+    "@language" : "it",
+    "@value" : "è catalogo di"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/CulturalInstituteOrSite"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "en",
+    "@value" : "unstable"
+  }, {
+    "@language" : "it",
+    "@value" : "versione non definitiva"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/isDayOfWeekOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Inverse property of has day of week."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà inversa di \"ha giorno della settimana\"."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/DayOfWeek"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is day of week of "
+  }, {
+    "@language" : "it",
+    "@value" : "è giorno della settimana di "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/OpeningHoursSpecification"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "en",
+    "@value" : "unstable"
+  }, {
+    "@language" : "it",
+    "@value" : "versione non definitiva"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/isProvidedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Inverse property of \"provides service\""
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà inversa di \"fornisce servizio\""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is provided by"
+  }, {
+    "@language" : "it",
+    "@value" : "è fornito da"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/CulturalInstituteOrSite"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/providesService"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/isSiteOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Inverse property of \"has Site\""
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà inversa di \"ha sede\"."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/Site"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is site of"
+  }, {
+    "@language" : "it",
+    "@value" : "è contenitore fisico di"
+  }, {
+    "@language" : "it",
+    "@value" : "è sede di"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/CulturalInstituteOrSite"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property used to associate a name with an event and a project"
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà utilizzata per associare un nome all'evento o al progetto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "name"
+  }, {
+    "@language" : "it",
+    "@value" : "nome"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/opens",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Questa proprietà è utilizzata per rappresentare l'orario di apertura"
+  }, {
+    "@language" : "en",
+    "@value" : "This property is used to represent the opening time"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/OpeningHoursSpecification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "apre "
+  }, {
+    "@language" : "en",
+    "@value" : "opens "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#time"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "non stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "unstable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/postCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property used to represent the post code of the address of the site of a cultural institute or site."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà utilizzata per rappresentare il codice postale."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/Address"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "codice postale"
+  }, {
+    "@language" : "en",
+    "@value" : "post code"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/providesService",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property used to represent a supply service relationship between a cultural institute or site and a service."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà utilizzata per rappresentare una relazione di fornitura di servizi da parte di un istituto e luogo della cultura."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/CulturalInstituteOrSite"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "fornisce servizi"
+  }, {
+    "@language" : "en",
+    "@value" : "provides Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/Service"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/startDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Data di inizio di un intervella temporale"
+  }, {
+    "@language" : "en",
+    "@value" : "Srart date of a Time Interval"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/TimeInterval"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Data di inizio"
+  }, {
+    "@language" : "en",
+    "@value" : "start Date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://dati.beniculturali.it/cis/toponym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Proprietà che rappresenta il toponimo dell'area geografica."
+  }, {
+    "@language" : "en",
+    "@value" : "This property represents the toponym of a geographical area."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/GeographicalFeature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "toponimo"
+  }, {
+    "@language" : "en",
+    "@value" : "toponym"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/name"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/C1001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A work is an abstract entity; there is no single material object one can point to as the work. We recognize the work through individual realizations or expressions of the work, but the work itself exists only in the commonality of content between and among the various expressions of the work. Because the notion of a work is abstract, it is difficult to define precise boundaries for the entity. The concept of what constitutes a work and where the line of demarcation lies between one work and another may in fact be viewed differently from one culture to another. Consequently the bibliographic conventions established by various cultures or national groups may differ in terms of the criteria they use for determining the boundaries between one work and another. For the purposes of this model variant texts incorporating revisions or updates to an earlier text are viewed simply as expressions of the same work (i.e., the variant texts are not viewed as separate works). Similarly, abridgements or enlargements of an existing text, or the addition of parts or an accompaniment to a musical composition are considered to be different expressions of the same work. Translations from one language to another, musical transcriptions and arrangements, and dubbed or subtitled versions of a film are also considered simply as different expressions of the same original work. By contrast, when the modification of a work involves a significant degree of independent intellectual or artistic effort, the result is viewed, for the purpose of this model, as a new work. Thus paraphrases, rewritings, adaptations for children, parodies, musical variations on a theme and free transcriptions of a musical composition are considered to represent new works. Similarly, adaptations of a work from one literary or art form to another (e.g., dramatizations, adaptations from one medium of the graphic arts to another, etc.) are considered to represent new works. Abstracts, digests and summaries are also considered to represent new works. [Source: http://iflastandards.info/ns/fr/frbr/frbrer/C1001]"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Creative work"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/C1002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An expression is the specific intellectual or artistic form that a work takes each time it is \"realized\". Expression encompasses, for example, the specific words, sentences, paragraphs, etc. that result from the realization of a work in the form of a text, or the particular sounds, phrasing, etc. resulting from the realization of a musical work. The boundaries of the entity expression are defined, however, so as to exclude aspects of physical form, such as typeface and page layout, that are not integral to the intellectual or artistic realization of the work as such. Inasmuch as the form of expression is an inherent characteristic of the expression, any change in form (e.g., from alpha-numeric notation to spoken word) results in a new expression. Similarly, changes in the intellectual conventions or instruments that are employed to express a work (e.g., translation from one language to another) result in the production of a new expression. If a text is revised or modified, the resulting expression is considered to be a new expression. The degree to which bibliographic distinctions are made between variant expressions of a work will depend to some extent on the nature of the work itself, on the anticipated needs of users and on what the cataloguer can reasonably be expected to recognize from the manifestation being described. Differences in form of expression (e.g., the differences between the expression of a work in the form of musical notation and the expression of the same work in the form of recorded sound) will normally be reflected in the bibliographic record, no matter what the nature of the work itself may be. Variant expressions in the same form (e.g., revised versions of a text) will often be indirectly identified as different expressions because the variation is apparent from the data associated with an attribute used to identify the manifestation in which the expression is embodied (e.g., an edition statement). Variations that would be evident only from a more detailed analysis and comparison of expressions (e.g., variations between several of the early texts of Shakespeare's Hamlet) would normally be reflected in the data only if the nature or stature of the work warranted such analysis, and only if it was anticipated that the distinction would be important to users. [Source: http://iflastandards.info/ns/fr/frbr/frbrer/C1002]"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Expression"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/C1003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An entity, tangible or intangible, that comprises intellectual and/or artistic content and is conceived, produced and/or issued as a unit, forming the basis of a single bibliographic description. Includes text, music, still and moving images, graphics, maps, sound recordings and video recordings, electronic data or programs, including those issued serially.[source: http://iflastandards.info/ns/isbd/elements/C2001]"
+  }, {
+    "@language" : "es",
+    "@value" : "Una entidad, tangible o intangible, que tiene contenido artístico y/o intelectual y que está concebida, producida y/o publicada como una unidad, formando la base de una descripción bibliográfica individual.  \tIncluye texto, música, imágenes fijas y en movimiento, gráficos, mapas, grabaciones sonoras y videograbaciones, programas o datos electrónicos, incluyendo aquellos editados periódicamente. [fuente: ttp://iflastandards.info/ns/isbd/elements/C2001]"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://datos.bne.es/def/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Recurso"
+  }, {
+    "@language" : "en",
+    "@value" : "Resource"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/C1004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The entity defined as item is a concrete entity. It is in many instances a single physical object (e.g., a copy of a one-volume monograph, a single audio cassette, etc.). There are instances, however, where the entity defined as item comprises more than one physical object (e.g., a monograph issued as two separately bound volumes, a recording issued on three separate compact discs, etc.). In terms of intellectual content and physical form, an item exemplifying a manifestation is normally the same as the manifestation itself. However, variations may occur from one item to another, even when the items exemplify the same manifestation, where those variations are the result of actions external to the intent of the producer of the manifestation (e.g., damage occurring after the item was produced, binding performed by a library, etc.). [Source: http://iflastandards.info/ns/fr/frbr/frbrer/C1004]"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Item"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/C1005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The entity defined as person encompasses individuals that are deceased as well as those that are living. For the purposes of this model persons are treated as entities only to the extent that they are involved in the creation or realization of a work (e.g., as authors, composers, artists, editors, translators, directors, performers, etc.), or are the subject of a work (e.g., as the subject of a biographical or autobiographical work, of a history, etc.). [Source: http://iflastandards.info/ns/fr/frbr/frbrer/C1005]"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Person"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/C1006",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The entity defined as corporate body encompasses organizations and groups of individuals and-or organizations that are identified by a particular name, including occasional groups and groups that are constituted as meetings, conferences, congresses, expeditions, exhibitions, festivals, fairs, etc. The entity also encompasses organizations that act as territorial authorities, exercising or claiming to exercise government functions over a certain territory, such as a federation, a state, a region, a local municipality, etc. The entity encompasses organizations and groups that are defunct as well as those that continue to operate.  For the purposes of this model corporate bodies are treated as entities only to the extent that they are involved in the creation or realization of a work (e.g., as the sponsors or endorsers of a work, etc.), or are the subject of a work (e.g., as the subject of a history, etc.). [Source: http://iflastandards.info/ns/fr/frbr/frbrer/C1006]"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Corporate Body"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/OP1001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1001"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is created by (person)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://datos.bne.es/def/C1005"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://datos.bne.es/def/OP5001"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/OP1002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1001"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is realized through"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://datos.bne.es/def/C1002"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://datos.bne.es/def/OP2002"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/OP1005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1001"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is created by (corporate body)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://datos.bne.es/def/C1006"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://datos.bne.es/def/OP6001"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/OP2001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1002"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is embodied in"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://datos.bne.es/def/C1003"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://datos.bne.es/def/OP3002"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/OP2002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1002"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is realization of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://datos.bne.es/def/C1001"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/OP3001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1003"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is exemplified by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://datos.bne.es/def/C1004"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://datos.bne.es/def/OP4001"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/OP3002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1003"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is embodiment of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://datos.bne.es/def/C1002"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/OP3003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1003"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es creado (recurso) por (persona)"
+  }, {
+    "@language" : "en",
+    "@value" : "is created (resource) by (person)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://datos.bne.es/def/C1005"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://datos.bne.es/def/OP5002"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/OP3004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1003"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is created (resource) by (corporate body)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://datos.bne.es/def/C1006"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://datos.bne.es/def/OP6004"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/OP3005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Relaciona una persona con un recurso con la que tiene un grado de responsabilidad no determinado (traductor, ilustrador, editor literario, coautor)"
+  }, {
+    "@language" : "en",
+    "@value" : "Relates a person with a resource that involves an uncertain degree of responsability (translator, illustrator, editor, co-author)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1005"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "contributes (person) to (resource)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://datos.bne.es/def/C1003"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://datos.bne.es/def/OP3006"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/OP3006",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1003"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has contributor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://datos.bne.es/def/C1005"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/OP4001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1004"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is exemplar of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://datos.bne.es/def/C1003"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/OP5001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1005"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is creator of (person)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://datos.bne.es/def/C1001"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/OP5002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1005"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is creator (person) of (resource)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://datos.bne.es/def/C1003"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/OP6001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1006"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is creator (corporate body) of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://datos.bne.es/def/C1001"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/OP6004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1006"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is creator (corporate body) of (resource)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://datos.bne.es/def/C1003"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/P1001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1001"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has title of the work"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/name"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/P1004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1001"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has date of the work"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/P1008",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#Music"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has medium of performance (musical work)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/P2001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1002"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has language of expression"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/P3004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1003"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has specific material designation and extent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/P3013",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1003"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ISBN"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/identifier"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/P3015",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1003"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has note"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/P3048",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1003"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has date of printing or manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/P5001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1005"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has name of person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/name"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/P5005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1005"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has biography or history"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/P5008",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1005"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has pseudonymous"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/P5010",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1005"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "date of birth"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ]
+}, {
+  "@id" : "http://datos.bne.es/def/P5011",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1005"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "date of death"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000050",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "a core relation that holds between a part and its whole"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://purl.obolibrary.org/obo/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "part of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000051"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000051",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "inverse property of \"part of\""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://purl.obolibrary.org/obo/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has part"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/modified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/rights",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@value" : "Lucía Martín Fernández"
+  }, {
+    "@value" : "Álvaro González Berdasco"
+  } ],
+  "http://purl.org/dc/elements/1.1/date" : [ {
+    "@value" : "2023-01-25"
+  } ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "The BibliOWL ontology has been created to connect information about the physical Libraries and the content of its catalogues. \n\nThe general goal of the BibliOWL ontology is to model data about libraries regarding its location, organization, provided services and administration, together with its users and the description of its catalogue. The catalogue is composed by different items corresponding to various resources related to different creative works expressions. The ontology includes information about the characteristics of this contents. The class loan relates users with items so that the library's content movement can be tracked."
+  } ],
+  "http://purl.org/dc/elements/1.1/license" : [ {
+    "@id" : "http://creativecommons.org/licenses/by/3.0/it/"
+  } ],
+  "http://purl.org/dc/elements/1.1/rights" : [ {
+    "@id" : "http://creativecommons.org/licenses/by/3.0/it/legalcode"
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@value" : "BibliOWL"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The BibliOWL ontology has been created as part of the Final Assigment for the Semanthic Technologies course of the Master's in Computational Biology of Universidad Politécnica de Madrid, in the academical year 2022-2023."
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://datos.bne.es/def/"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "en",
+    "@value" : "Version 1.0 - 25 January 2023"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#AlvaroGonzalezBerdasco",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://datos.bne.es/def/P5001" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Álvaro González Berdasco"
+  } ],
+  "http://datos.bne.es/def/P5010" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "1999-11-08"
+  } ],
+  "http://w3.id.org/def/BibliOWL#hasUserType" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#User18-25"
+  } ],
+  "http://w3.id.org/def/BibliOWL#isUserOf" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#BPMBenicarlo"
+  } ],
+  "http://w3.id.org/def/BibliOWL#participatesAtLoan" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#Loan0001AAA"
+  } ],
+  "http://w3.id.org/def/BibliOWL#userID" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "AGB000001"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#User"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#BPMBenicarlo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dati.beniculturali.it/cis/ISILIdentifier" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "13ln84fcs96ljr"
+  } ],
+  "http://dati.beniculturali.it/cis/catalogue" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#BPMBenicarloCatalogue"
+  } ],
+  "http://dati.beniculturali.it/cis/hasAccessCondition" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#BPMBenicarloOHSSaturday"
+  }, {
+    "@id" : "http://w3.id.org/def/BibliOWL#BPMBenicarloOHSWeek"
+  }, {
+    "@id" : "http://w3.id.org/def/BibliOWL#FloorRenovation"
+  } ],
+  "http://dati.beniculturali.it/cis/hasContactPoint" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#BPMBenicarloContact"
+  } ],
+  "http://dati.beniculturali.it/cis/hasSite" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#BPMBenicarloSite"
+  } ],
+  "http://dati.beniculturali.it/cis/hasWebSite" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.ajuntamentdebenicarlo.org/bib/pbib-biblioteca.php3?g_idioma=v"
+  } ],
+  "http://dati.beniculturali.it/cis/institutionalName" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Biblioteca Pública Municipal Manuel García I Benicarló"
+  } ],
+  "http://dati.beniculturali.it/cis/providesService" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#InternetAccess"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/Library"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#BPMBenicarloAddress",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dati.beniculturali.it/cis/addressID" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "5840jdel9uf"
+  } ],
+  "http://dati.beniculturali.it/cis/fullAddress" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Carrer de Peníscola, 21, 12580 Benicarló, Castelló"
+  } ],
+  "http://dati.beniculturali.it/cis/postCode" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "12580"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/Address"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#BPMBenicarloCatalogue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3.id.org/def/BibliOWL#contains" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#SMBM34A01"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/Catalogue"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#BPMBenicarloContact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dati.beniculturali.it/cis/available" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#BPMBenicarloOHSSaturday"
+  }, {
+    "@id" : "http://w3.id.org/def/BibliOWL#BPMBenicarloOHSWeek"
+  } ],
+  "http://dati.beniculturali.it/cis/hasEmail" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "correu.biblioteca@ajuntamentdebenicarlo.org"
+  } ],
+  "http://dati.beniculturali.it/cis/hasTelephone" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "964475660"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/ContactPoint"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#BPMBenicarloGeometry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dati.beniculturali.it/cis/hasLat" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "40.414282"
+  } ],
+  "http://dati.beniculturali.it/cis/hasLong" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "0.423415"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/Geometry"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#BPMBenicarloOHSSaturday",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dati.beniculturali.it/cis/closes" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#time",
+    "@value" : "13:30"
+  } ],
+  "http://dati.beniculturali.it/cis/hasDayOfWeek" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/Saturday"
+  } ],
+  "http://dati.beniculturali.it/cis/opens" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#time",
+    "@value" : "09:30"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/OpeningHoursSpecification"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#BPMBenicarloOHSWeek",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dati.beniculturali.it/cis/closes" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#time",
+    "@value" : "20:00"
+  } ],
+  "http://dati.beniculturali.it/cis/hasDayOfWeek" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#WeekDays"
+  } ],
+  "http://dati.beniculturali.it/cis/opens" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#time",
+    "@value" : "09:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/OpeningHoursSpecification"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#BPMBenicarloSite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dati.beniculturali.it/cis/hasAddress" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#BPMBenicarloAddress"
+  } ],
+  "http://dati.beniculturali.it/cis/hasGeographicalLocation" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#Benicarlo"
+  } ],
+  "http://dati.beniculturali.it/cis/hasGeometry" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#BPMBenicarloGeometry"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/Site"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#Benicarlo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dati.beniculturali.it/cis/toponym" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Benicarló"
+  } ],
+  "http://purl.obolibrary.org/obo/BFO_0000050" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#Castellon"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#Municipality"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#Castellon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dati.beniculturali.it/cis/toponym" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Castellón"
+  } ],
+  "http://purl.obolibrary.org/obo/BFO_0000050" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#ComunidadValenciana"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#Province"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#Cinema",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cinematographic work"
+  }, {
+    "@language" : "es",
+    "@value" : "Obra cinematografica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://datos.bne.es/def/C1001"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#ComunidadValenciana",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dati.beniculturali.it/cis/toponym" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Comunidad Valenciana"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#Region"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#FloorRenovation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dati.beniculturali.it/cis/hasReason" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Period of time for fixing the bulding's floor."
+  } ],
+  "http://w3.id.org/def/BibliOWL#hasTimeInterval" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#RenovationPeriod"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/TemporaryClosure"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#GrupoAnaya",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://datos.bne.es/def/OP6004" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#SMBM34A"
+  } ],
+  "http://w3.id.org/def/BibliOWL#corporateBodyName" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Grupo Anaya, S.A."
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://datos.bne.es/def/C1006"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#InternetAccess",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/Service"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#Literature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Literacy work"
+  }, {
+    "@language" : "es",
+    "@value" : "Obra Literaria"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://datos.bne.es/def/C1001"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#Loan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://w3.id.org/def/BibliOWL#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Loan"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#Loan0001AAA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3.id.org/def/BibliOWL#loanID" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "0001AAA"
+  } ],
+  "http://w3.id.org/def/BibliOWL#validDuring" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#LoanAAA0001"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#Loan"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#LoanAAA0001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dati.beniculturali.it/cis/endDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2023-01-25"
+  } ],
+  "http://dati.beniculturali.it/cis/startDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2023-01-20"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/TimeInterval"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#MarioValdes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://datos.bne.es/def/OP3005" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#SMBM34A"
+  } ],
+  "http://datos.bne.es/def/P5001" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Mario J. Valdés"
+  } ],
+  "http://datos.bne.es/def/P5010" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "1934-01-28"
+  } ],
+  "http://datos.bne.es/def/P5011" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2020-04-26"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://datos.bne.es/def/C1005"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#MiguelDeUnamuno",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://datos.bne.es/def/P5001" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Miguel de Unamuno y Jugo"
+  } ],
+  "http://datos.bne.es/def/P5005" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.biografiasyvidas.com/biografia/u/unamuno.htm"
+  } ],
+  "http://datos.bne.es/def/P5008" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Miguel de Unamuno"
+  } ],
+  "http://datos.bne.es/def/P5010" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "1864-09-29"
+  } ],
+  "http://datos.bne.es/def/P5011" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "1936-12-31"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://datos.bne.es/def/C1005"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#Municipality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://w3.id.org/def/BibliOWL#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Municipality"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/GovernamentalAdministrativeArea"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#Music",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Musical work"
+  }, {
+    "@language" : "es",
+    "@value" : "Obra musical"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://datos.bne.es/def/C1001"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#Province",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://w3.id.org/def/BibliOWL#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Province"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/GovernamentalAdministrativeArea"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#Region",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://w3.id.org/def/BibliOWL#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Region"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/GovernamentalAdministrativeArea"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#RenovationPeriod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dati.beniculturali.it/cis/endDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2023-05-30T23:59:00"
+  } ],
+  "http://dati.beniculturali.it/cis/startDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2023-05-10T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/TimeInterval"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#SMBM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://datos.bne.es/def/OP1001" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#MiguelDeUnamuno"
+  } ],
+  "http://datos.bne.es/def/P1001" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "San Manuel Bueno, mártir"
+  } ],
+  "http://datos.bne.es/def/P1004" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "1931"
+  } ],
+  "http://w3.id.org/def/BibliOWL#hasGenre" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Novela"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#Literature"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#SMBM34A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://datos.bne.es/def/OP3001" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#SMBM34A01"
+  } ],
+  "http://datos.bne.es/def/P3004" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Book"
+  } ],
+  "http://datos.bne.es/def/P3013" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "978-84-376-0185-4"
+  } ],
+  "http://datos.bne.es/def/P3015" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "The book comes with an audiobook in CD format."
+  } ],
+  "http://datos.bne.es/def/P3048" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2014"
+  } ],
+  "http://w3.id.org/def/BibliOWL#hasAppropiateAge" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "14"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://datos.bne.es/def/C1003"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "San Manuel Bueno, Mártir 34th edition. Miguel de Unamuno. Edited by Mario Valdés. Ediciones Cátedra (Grupo Anaya)"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#SMBM34A01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3.id.org/def/BibliOWL#isBorrowedAtLoan" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#Loan0001AAA"
+  } ],
+  "http://w3.id.org/def/BibliOWL#itemID" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "SMBM34A01"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://datos.bne.es/def/C1004"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#SMBMBookSp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://datos.bne.es/def/OP2001" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#SMBM34A"
+  } ],
+  "http://datos.bne.es/def/OP2002" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#SMBM"
+  } ],
+  "http://datos.bne.es/def/P2001" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Spanish"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.rdaregistry.info/termList/RDAContentType/#1020"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#User",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "User"
+  }, {
+    "@language" : "es",
+    "@value" : "Usuario"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://datos.bne.es/def/C1005"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#User15-18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#UserUnder18"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#User18-25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#UserOver18"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#User26-40",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#UserOver18"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#User41-65",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#UserOver18"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#User66-",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#UserOver18"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#UserOver18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://w3.id.org/def/BibliOWL#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "user over 18 years old"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#UserType"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#UserType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://w3.id.org/def/BibliOWL#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "user type"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#UserUnder18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://w3.id.org/def/BibliOWL#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "user under 18 years old"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#UserType"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#WeekDays",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/DayOfWeek"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Includes days of the week from Monday to Friday"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#Weekend",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/DayOfWeek"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#contains",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/Catalogue"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://w3.id.org/def/BibliOWL#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "(catalogue) contains (item)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://datos.bne.es/def/C1004"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#isContainedIn"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#corporateBodyName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1006"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://w3.id.org/def/BibliOWL#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has Corporate Body name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/name"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#hasAppropiateAge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1003"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://w3.id.org/def/BibliOWL#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has appropiate age"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#hasGenre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1001"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://w3.id.org/def/BibliOWL#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has genre"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#hasMember",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1006"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has member"
+  }, {
+    "@language" : "es",
+    "@value" : "tiene miembro"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://datos.bne.es/def/C1005"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#isMemberOf"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#hasTimeInterval",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/TemporaryClosure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://w3.id.org/def/BibliOWL#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has time interval"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/TimeInterval"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#hasUser",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/CulturalInstituteOrSite"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://w3.id.org/def/BibliOWL#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has User"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#User"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#isUserOf"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#hasUserType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#User"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://w3.id.org/def/BibliOWL#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has user type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#UserType"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#isBorrowedAtLoan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1004"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://w3.id.org/def/BibliOWL#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "(item) is borrowed at loan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#Loan"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#isContainedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1004"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://w3.id.org/def/BibliOWL#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "(item) is contained in (catalogue)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/Catalogue"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#isMemberOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1005"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es miembro de"
+  }, {
+    "@language" : "en",
+    "@value" : "is member of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://datos.bne.es/def/C1006"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#isUserOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#User"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://w3.id.org/def/BibliOWL#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is user of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/CulturalInstituteOrSite"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#itemID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://datos.bne.es/def/C1004"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "ejemplar ID"
+  }, {
+    "@language" : "en",
+    "@value" : "item ID"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/identifier"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#loanID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#Loan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://w3.id.org/def/BibliOWL#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Loan ID"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/identifier"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#participatesAtLoan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#User"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://w3.id.org/def/BibliOWL#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "(user) participates at Loan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#Loan"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#userID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#User"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://w3.id.org/def/BibliOWL#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "user ID"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/identifier"
+  } ]
+}, {
+  "@id" : "http://w3.id.org/def/BibliOWL#validDuring",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://w3.id.org/def/BibliOWL#Loan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://w3.id.org/def/BibliOWL#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "valid during"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dati.beniculturali.it/cis/TimeInterval"
+  } ]
+}, {
+  "@id" : "http://www.rdaregistry.info/termList/RDAContentType/#1003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A content type that consists of cartographic content expressed through images intended to be perceived as moving, in two dimensions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cartographic moving image"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://datos.bne.es/def/C1002"
+  } ]
+}, {
+  "@id" : "http://www.rdaregistry.info/termList/RDAContentType/#1010",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A content type that consists of content expressed through a form of musical notation intended to be perceived visually"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Notated music"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://datos.bne.es/def/C1002"
+  } ]
+}, {
+  "@id" : "http://www.rdaregistry.info/termList/RDAContentType/#1011",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A content type that consists of content expressed through music in an audible form."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Performed music"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://datos.bne.es/def/C1002"
+  } ]
+}, {
+  "@id" : "http://www.rdaregistry.info/termList/RDAContentType/#1012",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A content type that consists of content other than language or music, expressed in an audible form."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sounds"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://datos.bne.es/def/C1002"
+  } ]
+}, {
+  "@id" : "http://www.rdaregistry.info/termList/RDAContentType/#1013",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A content type that consists of content expressed through language in an audible form."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Spoken word"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://datos.bne.es/def/C1002"
+  } ]
+}, {
+  "@id" : "http://www.rdaregistry.info/termList/RDAContentType/#1020",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A content type that consists of content expressed through a form of notation for language intended to be perceived visually"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Text"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://datos.bne.es/def/C1002"
+  } ]
+}, {
+  "@id" : "http://www.rdaregistry.info/termList/RDAContentType/#1023",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A content type that consists of content expressed through images intended to be perceived to be moving, and in two dimensions"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "two-dimensional moving image"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://datos.bne.es/def/C1002"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#comment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#date",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#decimal",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#float",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#time",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#Thing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#versionInfo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]
