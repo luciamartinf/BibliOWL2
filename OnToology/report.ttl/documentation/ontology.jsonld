@@ -1,0 +1,80 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1674677838166HOMEAHMADREPOSPREVCLONE-PRTEBIBLIOWL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://vocab.linkeddata.es/ontology/report#entrySubject" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-PRTEBIBLI.OWL"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#isEntryOfReport" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#REPORT1674677838166"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#vocabularyStatus" : [ {
+    "@value" : "http://vocab.linkeddata.es/ontology/report#success"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#Entry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Entry for vocab /home/ahmad/repos/prevclone-prTe/Bibli.owl"
+  } ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#Entry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#REPORT1674677838166",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://vocab.linkeddata.es/ontology/report#hasEntry" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1674677838166HOMEAHMADREPOSPREVCLONE-PRTEBIBLIOWL"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#numberVocabsError" : [ {
+    "@value" : "0"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#numberVocabsOK" : [ {
+    "@value" : "1"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#numberVocabsWarning" : [ {
+    "@value" : "0"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#reportDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "Wed Jan 25 21:17:18 CET 2023"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#Report"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Report created on Wed Jan 25 21:17:18 CET 2023"
+  } ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#Report",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#entrySubject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#hasEntry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#isEntryOfReport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#numberVocabsError",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#numberVocabsOK",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#numberVocabsWarning",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#reportDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#vocabularyStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+} ]
