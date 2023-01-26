@@ -1,0 +1,89 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://vocab.linkeddata.es/ontology/report#entrySubject
+<http://vocab.linkeddata.es/ontology/report#entrySubject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://vocab.linkeddata.es/ontology/report#hasEntry
+<http://vocab.linkeddata.es/ontology/report#hasEntry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://vocab.linkeddata.es/ontology/report#isEntryOfReport
+<http://vocab.linkeddata.es/ontology/report#isEntryOfReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://vocab.linkeddata.es/ontology/report#vocabularyStatus
+<http://vocab.linkeddata.es/ontology/report#vocabularyStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://vocab.linkeddata.es/ontology/report#numberVocabsError
+<http://vocab.linkeddata.es/ontology/report#numberVocabsError> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://vocab.linkeddata.es/ontology/report#numberVocabsOK
+<http://vocab.linkeddata.es/ontology/report#numberVocabsOK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://vocab.linkeddata.es/ontology/report#numberVocabsWarning
+<http://vocab.linkeddata.es/ontology/report#numberVocabsWarning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://vocab.linkeddata.es/ontology/report#reportDate
+<http://vocab.linkeddata.es/ontology/report#reportDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#label
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://vocab.linkeddata.es/ontology/report#Entry
+<http://vocab.linkeddata.es/ontology/report#Entry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://vocab.linkeddata.es/ontology/report#Report
+<http://vocab.linkeddata.es/ontology/report#Report> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://vocab.linkeddata.es/ontology/report#ENTRY1674677838166HOMEAHMADREPOSPREVCLONE-PRTEBIBLIOWL
+<http://vocab.linkeddata.es/ontology/report#ENTRY1674677838166HOMEAHMADREPOSPREVCLONE-PRTEBIBLIOWL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1674677838166HOMEAHMADREPOSPREVCLONE-PRTEBIBLIOWL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/ontology/report#Entry> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1674677838166HOMEAHMADREPOSPREVCLONE-PRTEBIBLIOWL> <http://www.w3.org/2000/01/rdf-schema#label> "Entry for vocab /home/ahmad/repos/prevclone-prTe/Bibli.owl" .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1674677838166HOMEAHMADREPOSPREVCLONE-PRTEBIBLIOWL> <http://vocab.linkeddata.es/ontology/report#entrySubject> <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-PRTEBIBLI.OWL> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1674677838166HOMEAHMADREPOSPREVCLONE-PRTEBIBLIOWL> <http://vocab.linkeddata.es/ontology/report#isEntryOfReport> <http://vocab.linkeddata.es/ontology/report#REPORT1674677838166> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1674677838166HOMEAHMADREPOSPREVCLONE-PRTEBIBLIOWL> <http://vocab.linkeddata.es/ontology/report#vocabularyStatus> "http://vocab.linkeddata.es/ontology/report#success" .
+# 
+# http://vocab.linkeddata.es/ontology/report#REPORT1674677838166
+<http://vocab.linkeddata.es/ontology/report#REPORT1674677838166> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/ontology/report#REPORT1674677838166> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/ontology/report#Report> .
+<http://vocab.linkeddata.es/ontology/report#REPORT1674677838166> <http://vocab.linkeddata.es/ontology/report#numberVocabsError> "0" .
+<http://vocab.linkeddata.es/ontology/report#REPORT1674677838166> <http://vocab.linkeddata.es/ontology/report#numberVocabsOK> "1" .
+<http://vocab.linkeddata.es/ontology/report#REPORT1674677838166> <http://vocab.linkeddata.es/ontology/report#numberVocabsWarning> "0" .
+<http://vocab.linkeddata.es/ontology/report#REPORT1674677838166> <http://vocab.linkeddata.es/ontology/report#reportDate> "Wed Jan 25 21:17:18 CET 2023"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://vocab.linkeddata.es/ontology/report#REPORT1674677838166> <http://www.w3.org/2000/01/rdf-schema#label> "Report created on Wed Jan 25 21:17:18 CET 2023" .
+<http://vocab.linkeddata.es/ontology/report#REPORT1674677838166> <http://vocab.linkeddata.es/ontology/report#hasEntry> <http://vocab.linkeddata.es/ontology/report#ENTRY1674677838166HOMEAHMADREPOSPREVCLONE-PRTEBIBLIOWL> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
